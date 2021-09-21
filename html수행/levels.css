@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*levels*/
+.level-intro{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+.priview-level{
+    display: flex;
+}
+.sort{
+    margin-left: 40px;
+    margin-right: 50px;
+    flex-direction: column;
+    color: #ffffff;
+}
+.introduce{
+    font-weight: bold;
+    margin-top: 15px;
+}
+/*table*/
+table{
+    text-align: center;
+    table-layout: fixed;
+    width: 700px;
+}
+.refrence{
+    font-size: 50%;
+    color: #ffffff;
+    margin-left: 50px;
+}
+.correction{
+    color: #87cefa;
+}
+.correction:hover{
+    color: #00bfff;
+}
+.standard{
+    margin-top: 20px;
+    height: 400px;
+    width: 2200px;
+    margin-left: 50px;
+}
+.colorRed{
+    color: #ff0000;
+}

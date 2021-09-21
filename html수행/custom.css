@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.costom-title{
+    font-family: 'Philosopher', serif;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    color: #ffffff;
+}
+.custom-introduce{
+    font-family: 'Philosopher', serif;
+    font-size: 125%;
+    color: #ffffff;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.customimg{
+    height: 400px;
+    width: 700px;
+}

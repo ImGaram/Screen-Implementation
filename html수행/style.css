@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    margin-top: 20px;
+    max-width: 70%;
+}
+  
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #ffffff;
+}
+.main-nav a:hover {
+    color: #c0c0c0;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+/*제목*/
+.page-title{
+    font-family: 'Philosopher', serif;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.main-contents{
+    text-align: center;
+    margin-top: 15%;
+    color: #ffffff;
+}
+.main-contents p{
+    font-size: 1.125rem;
+    margin: 10px 0 40px;
+}
+/*button*/
+.button{
+    background: #ffd700;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background: #daa520;
+}
+#home{
+    background-image: url(images/main-bg.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+#home .main-contents{
+    text-transform: none;
+}
+.wrapper-side{
+    margin: 0 auto;
+    padding: 0 4%;
+    font-size: 2rem;
+    color: #ffffff;
+}
+#levels{
+    background-image: url(images/levels-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+#levels .page-title{
+    text-align: center;
+}
+.main-bg-sub{
+    background-image: url(images/levels-bg-sub.jpg);
+    background-size: cover;
+}
+/*grid*/
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4%;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.aa{
+    color: #ffffff;
+}
+.aa:hover{
+    color: #c0c0c0;
+}
+.sub-title{
+    font-family: 'Philosopher', serif;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-left: 55px;
+}
+.list{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 125%;
+}
+.bb{
+    margin-left: 55px;
+}
+.bimg{
+    height: 180px;
+    width: 320px;
+}
